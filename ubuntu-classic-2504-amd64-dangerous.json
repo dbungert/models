@@ -6,7 +6,7 @@
     "model": "ubuntu-classic-2504-amd64-dangerous",
     "architecture": "amd64",
     "timestamp": "2024-10-30T12:00:00.0Z",
-    "base": "core22",
+    "base": "core24",
     "grade": "dangerous",
     "classic": "true",
     "distribution": "ubuntu",
@@ -20,7 +20,7 @@
         {
             "name": "pc-kernel",
             "type": "kernel",
-            "default-channel": "25.04/edge",
+            "default-channel": "24/edge/nvidia-components-dev",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
         },
         {
@@ -28,6 +28,12 @@
             "type": "base",
             "default-channel": "latest/edge",
             "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
+        },
+        {
+            "name": "core24",
+            "type": "base",
+            "default-channel": "latest/edge",
+            "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM"
         },
         {
             "name": "snapd",
